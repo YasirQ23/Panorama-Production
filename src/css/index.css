@@ -41,14 +41,14 @@ Header.js css
 /* 
 Greeting.js css
 */
-.greeting {
+.heading {
   font-size: 40px;
   color: black;
   margin-bottom: 0 !important;
   font-weight: 400;
 }
 
-.greetingInfo {
+.subHeading {
   font-size: 18px;
   color: black;
   margin-bottom: 1.5rem !important;
@@ -59,9 +59,15 @@ Greeting.js css
 FamilyBanner.js css
 */
 .familyPic {
-  width: 100%;
+  width: 80vw!important;
+  height: 45vw!important;
   border-radius: 5px;
   margin-bottom: 1.5rem !important;
+}
+
+.familyPicDiv {
+  display: flex;
+  justify-content: center;
 }
 
 /* 
@@ -69,7 +75,7 @@ ServiceBanner.js css
 */
 .card {
   border-width: 0 !important;
-  margin: 0 !important;
+  margin: 0 2vw 0 2vw!important;
   padding: 0 !important;
   max-width: 22rem;
 }
@@ -87,6 +93,11 @@ ServiceBanner.js css
   margin-bottom: 1.5rem !important;
 }
 
+.card-title {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 .card-body {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -94,16 +105,19 @@ ServiceBanner.js css
 
 .card-text {
   padding-right: 1vw;
+  text-align: center;
 }
 
 /* 
-ContactForm.js css
+PersonalForm.js css
 */
 .form {
   padding: 0 1rem 0 1rem!important;
 }
 
-
+/* 
+ContactForm.js css
+*/
 .formBtn {
   background-color: black !important;
   border-radius: 0 !important;
@@ -118,4 +132,42 @@ ContactForm.js css
   padding-left: 5vw;
   padding-right: 5vw;
   margin-bottom: 5vh !important;
+}
+
+/*
+TimeSchedule.js css
+*/
+.css-1lwbda4-MuiStack-root {
+  margin-bottom: 5vh !important;
+}
+
+/*
+VideoBanner.js css
+*/
+iframe {
+  width: 80vw!important;
+  height: 45vw!important;
+  border-radius: 5px;
+}
+
+.Video{
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 5vh !important;
+}
+
+/*
+PartnersBanner.js css
+*/
+
+.partnersRow {
+  max-width: 100vw !important;
+  display: flex!important;
+  justify-content: center !important;
+  margin-bottom: 5vh !important;
+}
+
+.partnerPic{
+  max-width: 20vw !important;
+  margin: 0 2vw 0 2vw!important;
 }

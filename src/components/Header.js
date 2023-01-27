@@ -11,6 +11,7 @@ export default function Header() {
             width="30vw"
             height="30vw"
             className="d-inline-block align-top"
+            alt=""
           />
           Panorama Prodcutions
         </Navbar.Brand>
@@ -20,6 +21,7 @@ export default function Header() {
             width="30vw"
             height="30vw"
             className="d-inline-block align-top"
+            alt=""
             />
         </Navbar.Brand>
       </Container>
