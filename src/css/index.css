@@ -1,0 +1,121 @@
+.App {
+  font-family: "Roboto Mono";
+  line-height: 1.6;
+  background: #ffffff;
+  overflow-x: hidden;
+  font-size: 16px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* 
+Tags css
+*/
+.Container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+/* 
+Header.js css
+*/
+.Header {
+  margin-bottom: 1.5rem;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* 
+Greeting.js css
+*/
+.greeting {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 0 !important;
+  font-weight: 400;
+}
+
+.greetingInfo {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 1.5rem !important;
+  font-weight: 400;
+}
+
+/* 
+FamilyBanner.js css
+*/
+.familyPic {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1.5rem !important;
+}
+
+/* 
+ServiceBanner.js css
+*/
+.card {
+  border-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 22rem;
+}
+
+.CardContainer {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  margin-bottom: 5rem !important;
+}
+
+.servicePics {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1.5rem !important;
+}
+
+.card-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.card-text {
+  padding-right: 1vw;
+}
+
+/* 
+ContactForm.js css
+*/
+.form {
+  padding: 0 1rem 0 1rem!important;
+}
+
+
+.formBtn {
+  background-color: black !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  font-weight: 300 !important;
+  max-width: 5rem !important;
+  margin-left: auto !important;
+}
+
+.btnRow {
+  display: flex !important;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-bottom: 5vh !important;
+}
