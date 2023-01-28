@@ -4,7 +4,7 @@ export default function PartnersBanner() {
   return (
     <Container>
       <h1 className="heading" >Don't just take our word for it.</h1>
-      <h2 className="subHeading" >We've worked with the best in the business.</h2>
+      <h2 className="subHeading" >We've worked with some of the biggest names out there.</h2>
       <Row className="partnersRow" >
         <img
           className="partnerPic"

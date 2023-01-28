@@ -33,7 +33,7 @@ Tags css
 Header.js css
 */
 .Header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 5vh !important;
   padding-top: 20px !important;
   padding-bottom: 20px !important;
 }
@@ -51,7 +51,7 @@ Greeting.js css
 .subHeading {
   font-size: 18px;
   color: black;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 5vh !important;
   font-weight: 400;
 }
 
@@ -59,10 +59,10 @@ Greeting.js css
 FamilyBanner.js css
 */
 .familyPic {
-  width: 80vw!important;
-  height: 45vw!important;
+  width: 80vw !important;
+  height: 45vw !important;
   border-radius: 5px;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 5vh !important;
 }
 
 .familyPicDiv {
@@ -75,7 +75,7 @@ ServiceBanner.js css
 */
 .card {
   border-width: 0 !important;
-  margin: 0 2vw 0 2vw!important;
+  margin: 0 2vw 0 2vw !important;
   padding: 0 !important;
   max-width: 22rem;
 }
@@ -84,13 +84,13 @@ ServiceBanner.js css
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
-  margin-bottom: 5rem !important;
+  margin-bottom: 5vh !important;
 }
 
 .servicePics {
   width: 100%;
   height: 250px;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 5vh !important;
 }
 
 .card-title {
@@ -112,7 +112,7 @@ ServiceBanner.js css
 PersonalForm.js css
 */
 .form {
-  padding: 0 1rem 0 1rem!important;
+  padding: 0 1rem 0 1rem !important;
 }
 
 /* 
@@ -144,13 +144,13 @@ TimeSchedule.js css
 /*
 VideoBanner.js css
 */
-iframe {
-  width: 80vw!important;
-  height: 45vw!important;
+.experianceVideo {
+  width: 80vw !important;
+  height: 45vw !important;
   border-radius: 5px;
 }
 
-.Video{
+.Video {
   display: flex !important;
   justify-content: center !important;
   margin-bottom: 5vh !important;
@@ -162,12 +162,19 @@ PartnersBanner.js css
 
 .partnersRow {
   max-width: 100vw !important;
-  display: flex!important;
+  display: flex !important;
   justify-content: center !important;
   margin-bottom: 5vh !important;
 }
 
-.partnerPic{
+.partnerPic {
   max-width: 20vw !important;
-  margin: 0 2vw 0 2vw!important;
+  margin: 0 2vw 0 2vw !important;
+}
+
+/*
+NewForm.js css
+*/
+.calBox {
+  margin-bottom: 5vh !important;
 }

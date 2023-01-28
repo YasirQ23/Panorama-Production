@@ -3,9 +3,9 @@ import Header from "./components/Header";
 import Greeting from "./components/Greeting";
 import FamilyBanner from "./components/FamilyBanner";
 import ServiceBanner from "./components/ServiceBanner";
-import ContactForm from "./components/ContactForm";
 import VideoBanner from "./components/VideoBanner";
 import PartnersBanner from "./components/PartnersBanner";
+import CalendlyForm from "./components/CalendlyForm";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
       <VideoBanner />
       <PartnersBanner />
       <FamilyBanner />
-      <ContactForm />
+      <CalendlyForm />
     </Container>
   );
 }
