@@ -2,9 +2,15 @@ import Container from "react-bootstrap/Container";
 
 export default function Greeting() {
   return (
-    <Container>
-      <h1 className="heading">Hey! We're <strong>Panorama Productions</strong></h1>
-      <h2 className="subHeading">A Family Owned & Operated Audio / Video Company.</h2>
+    <Container id ="greeting" className="greeting">
+      <div>
+        <h1 className="greeting-heading">
+          <strong>Panorama Productions</strong>
+        </h1>
+        <h2 className="greeting-subHeading">
+          Encompassing the full scope of production
+        </h2>
+      </div>
     </Container>
   );
 }

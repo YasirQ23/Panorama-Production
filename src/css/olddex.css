@@ -1,0 +1,109 @@
+.App {
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-bottom: 5vh !important;
+}
+
+.heading {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 0 !important;
+  font-weight: 400;
+}
+
+.subHeading {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5vh !important;
+  font-weight: 400;
+}
+
+/* Header.js css */
+
+.Header {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* Greeting.js css */
+
+/* FamilyBanner.js css */
+
+.familyPicDiv {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.familyPic {
+  max-width: 80vw;
+  border-radius: 5px;
+}
+
+/* ServiceBanner.js css */
+
+.cardContainer {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.card {
+  border-width: 0 !important;
+  max-width: 26rem;
+}
+
+.servicePics {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 5vh !important;
+}
+
+.card-text {
+  text-align: center;
+}
+
+/* VideoBanner.js css */
+
+.experianceVideo {
+  aspect-ratio: 16 / 9;
+  border-radius: 5px;
+  min-width: 20vw;
+  margin-bottom: 5vh;
+}
+
+/*
+PartnersBanner.js css
+*/
+
+.partnersRow {
+  max-width: 100vw !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 5vh !important;
+}
+
+.partnerPic {
+  max-width: 20vw !important;
+  margin: 0 2vw 0 2vw !important;
+}
+
+/*
+NewForm.js css
+*/
+.calBox {
+  margin-bottom: 5vh !important;
+}
