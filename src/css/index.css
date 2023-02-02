@@ -19,6 +19,8 @@
 .solid-background-1 {
   background-color: #189ab4;
   height: 95vh;
+  display: flex;
+  justify-content: center;
 }
 
 /* Header.css */
@@ -112,7 +114,7 @@ a.active {
 
 .about-us-heading {
   text-align: center;
-  color: #05445E;
+  color: #05445e;
   font-size: 6.5vh;
   font-weight: 100;
   padding-bottom: 2vh;
@@ -120,7 +122,7 @@ a.active {
 
 .about-us-body {
   text-align: center;
-  color: #05445E;
+  color: #05445e;
   font-size: 3vh;
   font-weight: 150;
   padding: 0 12.5vw 2vh 12.5vw;
@@ -217,9 +219,9 @@ a.active {
 
 .mini-map {
   margin: 5vh;
-  border-radius: 50%;
-  width: 15vw;
-  height: 15vw;
+  border-radius: 5%;
+  width: 12vw;
+  height: 12vw;
   border-color: #d4f1f4;
   border-style: solid;
   border-width: 2px;
@@ -227,11 +229,8 @@ a.active {
 }
 
 .footer-icon {
-  font-size: 15vw !important;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #d4f1f4;
-  border-width: 2px;
+  width: 12vw !important;
+  height: 12vw !important;
   padding: 10px;
   color: #d4f1f4;
 }
@@ -246,6 +245,11 @@ a.active {
   font-size: 3vw !important;
   margin: 0 0.75vw 0 0.75vw;
   color: #d4f1f4;
+}
+
+.map-col {
+  display: flex;
+  justify-content: center;
 }
 
 /* Calendly.css */
