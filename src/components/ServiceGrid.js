@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Grid from "@mui/material/Grid";
+import images from "./images";
 
 export default function ServiceGrid() {
   return (
@@ -19,8 +20,8 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src="https://images.crutchfieldonline.com/ImageHandler/trim/750/457/products/2021/34/109/g109L52ORG-F.jpg"
-                alt=""
+                src={images.ProductionService}
+                alt="Production Service"
               ></img>
               <Card.Title className="services-title">
                 Production Expertise
@@ -37,12 +38,12 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src="https://www.outdoor-movies.com/wp-content/uploads/2017/03/home-tile-packages-1.png"
-                alt=""
+                src={images.LiveEventService}
+                alt="Live Event Service"
               ></img>
               <Card.Title className="services-title">Live Events</Card.Title>
               <Card.Text className="services-body">
-                Set-up, organize and capture live meetings, events, and sports
+                Set-up & organize live events, meetings, and sports
               </Card.Text>
             </Card.Body>
           </Card>
@@ -53,14 +54,14 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src="https://m.media-amazon.com/images/I/51ngL-9PcRL._AC_SX569_.jpg"
-                alt=""
+                src={images.CORService}
+                alt="Camera Operation & Rental"
               ></img>
               <Card.Title className="services-title">
-                Equipment Rental
+                Camera Operation & Rental
               </Card.Title>
               <Card.Text className="services-body">
-                The equipment you need to cover your production
+                Capture your production with the equipment you need
               </Card.Text>
             </Card.Body>
           </Card>

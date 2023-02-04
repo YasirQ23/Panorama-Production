@@ -4,16 +4,16 @@
 
 /* ImageBackground.css */
 
-.image-background {
-  background: url("https://static-cse.canva.com/blob/676990/17BlueGreen.b07bf085.png")
-    no-repeat center center fixed;
+/* .image-background {
+  background: url('/src/css/images/SkyBackground.jpeg')
+  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 96vh;
   padding-top: 5vh;
-}
+} */
 
 /* SolidBackground1.css */
 .solid-background-1 {
@@ -65,22 +65,22 @@ a.active {
   border-width: 3px;
   border-style: solid;
   border-color: #d4f1f4;
-  margin: 10vh 0 10vh 0;
+  margin: 6vh 0 7vh 0;
   padding: 20vh 0 20vh 0;
   text-align: center;
 }
 
 .greeting-heading {
-  margin: 0 0 7.5vh 0;
+  margin: 0 0 5vh 0;
   text-align: center;
-  font-size: 6.5vh;
+  font-size: 10vh;
   color: #d4f1f4;
   font-weight: 500;
 }
 
 .greeting-subHeading {
   font-size: 3.5vh;
-  font-weight: 150;
+  font-weight: 500;
   color: #d4f1f4;
 }
 
@@ -177,7 +177,6 @@ a.active {
 
 .video-grid-item {
   max-height: 22.5vh;
-  aspect-ratio: 1/1;
 }
 
 .video-grid-player {
