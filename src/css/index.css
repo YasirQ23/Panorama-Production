@@ -2,22 +2,9 @@
   padding: 0 !important;
 }
 
-/* ImageBackground.css */
-
-/* .image-background {
-  background: url('/src/css/images/SkyBackground.jpeg')
-  no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 96vh;
-  padding-top: 5vh;
-} */
-
 /* SolidBackground1.css */
 .solid-background-1 {
-  background-color: #189ab4;
+  background-color: #006d77;
   height: 95vh;
   display: flex;
   justify-content: center;
@@ -28,7 +15,7 @@
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  background-color: #189ab4 !important;
+  background-color: #006d77 !important;
   height: 10vh;
 }
 
@@ -61,10 +48,10 @@ a.active {
 .greeting {
   display: flex;
   justify-content: center;
-  color: #d4f1f4;
+  color: #edf6f9;
   border-width: 3px;
   border-style: solid;
-  border-color: #d4f1f4;
+  border-color: #edf6f9;
   margin: 6vh 0 7vh 0;
   padding: 20vh 0 20vh 0;
   text-align: center;
@@ -74,14 +61,14 @@ a.active {
   margin: 0 0 5vh 0;
   text-align: center;
   font-size: 10vh;
-  color: #d4f1f4;
+  color: #edf6f9;
   font-weight: 500;
 }
 
 .greeting-subHeading {
   font-size: 3.5vh;
   font-weight: 500;
-  color: #d4f1f4;
+  color: #edf6f9;
 }
 
 /* Demo.css */
@@ -97,7 +84,7 @@ a.active {
 .demo-heading {
   padding-top: 5vh;
   margin-bottom: 2.5vh;
-  color: #d4f1f4;
+  color: #edf6f9;
 }
 
 .demo-player {
@@ -114,22 +101,22 @@ a.active {
 
 .about-us-heading {
   text-align: center;
-  color: #05445e;
+  color: #edf6f9;
   font-size: 6.5vh;
-  font-weight: 100;
+  font-weight: 500;
   padding-bottom: 2vh;
 }
 
 .about-us-body {
   text-align: center;
-  color: #05445e;
+  color: #edf6f9;
   font-size: 3vh;
-  font-weight: 150;
+  font-weight: 500;
   padding: 0 12.5vw 2vh 12.5vw;
 }
 
 .about-us-box {
-  background: #75e6da;
+  background: #006d77;
   opacity: 0.6;
   width: 70vw;
 }
@@ -138,6 +125,8 @@ a.active {
 .servicePics {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
+  margin-bottom: 2.5vh;
 }
 
 .item-card {
@@ -146,8 +135,9 @@ a.active {
 
 .service-heading {
   text-align: center;
-  color: #05445e;
-  margin-bottom: 15vh;
+  color: #83c5be;
+  margin-bottom: 12.5vh;
+  font-size: xx-large;
 }
 
 .services-container {
@@ -156,12 +146,15 @@ a.active {
 
 .services-title {
   text-align: center;
-  color: #05445e;
+  color: #83c5be;
+  font-size: x-large!important;
+  margin-bottom: 4vh!important;
 }
 
 .services-body {
   text-align: center;
-  color: #05445e;
+  color: #83c5be;
+  font-size: large!important;
 }
 
 /* VideoGrid.css */
@@ -171,7 +164,7 @@ a.active {
 
 .video-grid-heading {
   text-align: center;
-  color: #d4f1f4;
+  color: #edf6f9;
   padding: 2.5vh;
 }
 
@@ -187,17 +180,17 @@ a.active {
 /* Partners.css */
 .partners-container {
   height: 91vh;
-  padding: 10vh 0 10vh;
+  padding: 8vh 0 12vh;
 }
 
 .partners-heading {
   text-align: center;
-  color: #05445e;
+  color: #83c5be;
 }
 
 .partners-body {
   text-align: center;
-  color: #05445e;
+  color: #83c5be;
 }
 
 .partners-img {
@@ -212,7 +205,7 @@ a.active {
 
 /* Footer.css */
 .footer-container {
-  background-color: #189ab4;
+  background-color: #006d77;
   width: 100%;
 }
 
@@ -221,7 +214,7 @@ a.active {
   border-radius: 5%;
   width: 12vw;
   height: 12vw;
-  border-color: #d4f1f4;
+  border-color: #edf6f9;
   border-style: solid;
   border-width: 2px;
   padding: 10px;
@@ -231,7 +224,7 @@ a.active {
   width: 12vw !important;
   height: 12vw !important;
   padding: 10px;
-  color: #d4f1f4;
+  color: #edf6f9;
 }
 
 .footer-icon-col {
@@ -243,7 +236,7 @@ a.active {
 .footer-social-icon {
   font-size: 3vw !important;
   margin: 0 0.75vw 0 0.75vw;
-  color: #d4f1f4;
+  color: #edf6f9;
 }
 
 .map-col {
@@ -256,13 +249,5 @@ a.active {
   position: absolute;
   width: 9vw;
   height: 9vw;
-  /* 
-  background-color: transparent!important;
-  border-radius: 50%;
-  margin-bottom: auto; */
 }
 
-/* 
-.calendly-btn-container{
-  justify-content: end!important;
-} */
