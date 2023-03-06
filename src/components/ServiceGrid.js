@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Grid from "@mui/material/Grid";
-import images from "./images";
 
 export default function ServiceGrid() {
   return (
@@ -20,7 +19,7 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src={images.ProductionService}
+                src="/images/ProductionService.jpeg"
                 alt="Production Service"
               ></img>
               <Card.Title className="services-title">
@@ -38,7 +37,7 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src={images.LiveEventService}
+                src="/images/LiveEventService.jpeg"
                 alt="Live Event Service"
               ></img>
               <Card.Title className="services-title">Live Events</Card.Title>
@@ -54,7 +53,7 @@ export default function ServiceGrid() {
               {" "}
               <img
                 className="servicePics"
-                src={images.CORService}
+                src="/images/CORService.jpeg"
                 alt="Camera Operation & Rental"
               ></img>
               <Card.Title className="services-title">
