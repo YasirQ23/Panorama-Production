@@ -77,7 +77,7 @@ a.active {
   justify-content: center;
 }
 
-.demo-col {
+/* .demo-col {
   text-align: center;
 }
 
@@ -85,11 +85,12 @@ a.active {
   padding-top: 5vh;
   margin-bottom: 2.5vh;
   color: #edf6f9;
-}
+} */
 
 .demo-player {
   width: 75vw;
   height: 75vh;
+  margin: auto;
 }
 
 /* About Us.css */
@@ -101,24 +102,27 @@ a.active {
 
 .about-us-heading {
   text-align: center;
-  color: #edf6f9;
   font-size: 6.5vh;
-  font-weight: 500;
+  font-weight: 600;
   padding-bottom: 2vh;
+  padding-top: 2vh;
+  color: #83c5be;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .about-us-body {
   text-align: center;
-  color: #edf6f9;
   font-size: 3vh;
-  font-weight: 500;
-  padding: 0 12.5vw 2vh 12.5vw;
+  font-weight: 600;
+  padding: 0 10vw 2vh 10vw;
+  color: #83c5be;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .about-us-box {
-  background: #006d77;
-  opacity: 0.6;
-  width: 70vw;
+  background-color: rgba(0,109,119,.7);
+  width: fit-content;
+  border-radius: 10px;
 }
 
 /* ServiceGrid.css */
@@ -131,13 +135,15 @@ a.active {
 
 .item-card {
   border-width: 0 !important;
+  background-color: transparent!important;
 }
 
 .service-heading {
   text-align: center;
   color: #83c5be;
-  margin-bottom: 12.5vh;
-  font-size: xx-large;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-bottom: 5vh;
+  font-weight: 900;
 }
 
 .services-container {
@@ -147,14 +153,16 @@ a.active {
 .services-title {
   text-align: center;
   color: #83c5be;
-  font-size: x-large!important;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: xx-large!important;
   margin-bottom: 4vh!important;
 }
 
 .services-body {
   text-align: center;
   color: #83c5be;
-  font-size: large!important;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: x-large!important;
 }
 
 /* VideoGrid.css */
@@ -165,6 +173,7 @@ a.active {
 .video-grid-heading {
   text-align: center;
   color: #edf6f9;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   padding: 2.5vh;
 }
 

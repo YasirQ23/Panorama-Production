@@ -15,17 +15,20 @@ export default function App() {
   return (
     <Container fluid className="App">
       <Header />
-      <ImageBackground image="SkyBackground.jpeg">
+      <ImageBackground image="SunsetBackground.jpg">
         <Greeting />
       </ImageBackground>
       <SolidBackground1>
         <Demo />
       </SolidBackground1>
-      <ImageBackground image="WaterBackground.jpeg">
+      <ImageBackground image="Field2Background.jpg">
         <AboutUs />
       </ImageBackground>
-      <ServiceGrid />
-      <ImageBackground image="FieldBackground.jpeg">
+      <SolidBackground1>
+        {" "}
+        <ServiceGrid />
+      </SolidBackground1>
+      <ImageBackground image="BuisnessBackground.jpg">
         <VideoGrid />
       </ImageBackground>
       <Partners />

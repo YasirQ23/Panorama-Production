@@ -58,7 +58,7 @@ export default function ServiceGrid() {
                 alt="Camera Operation & Rental"
               ></img>
               <Card.Title className="services-title">
-                Camera Operation & Rental
+                Camera Rental
               </Card.Title>
               <Card.Text className="services-body">
                 Capture your production with the equipment you need
